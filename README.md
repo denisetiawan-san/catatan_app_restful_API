@@ -19,35 +19,7 @@ Tech Stack
 - Driver — go-sql-driver/mysql
 - Config — joho/godotenv
 
-Project Structure
-notes-api/
-├── server/
-│   └── main.go
-├── internal/
-│   ├── apperror/
-│   │   └── errors.go
-│   ├── conect_db/
-│   │   └── catatan_db_connection.go
-│   ├── dto/
-│   │   ├── catatan_mapper.go
-│   │   ├── catatan_request.go
-│   │   └── catatan_respons.go
-│   ├── handler/
-│   │   └── catatan_handler.go
-│   ├── modul/
-│   │   └── catatan_modul.go
-│   ├── repository/
-│   │   ├── interface.go
-│   │   └── catatan_repo.go
-│   ├── router/
-│   │   └── catatan_route.go
-│   └── service/
-│       ├── interface.go
-│       └── catatan_service.go
-├── database/
-│   └── catatan.sql
-├── go.mod
-└── go.sum
+
 
 API Endpoints
 
