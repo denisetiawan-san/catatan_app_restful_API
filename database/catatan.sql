@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS catatan_app;
-USE catatan_app;
+CREATE DATABASE IF NOT EXISTS catatan_github;
+USE catatan_github;
 
 CREATE TABLE catatan(
     id INT AUTO_INCREMENT PRIMARY KEY,
